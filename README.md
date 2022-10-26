@@ -1,1 +1,2 @@
-# SMLiveCharts
+# 基于LiveCharts.Wpf.Core（0.9.8)的几个图形报表实例(柱状图，曲线图，分组柱状图，饼状图)
+运行环境 net6 开发语言C# VS2022
