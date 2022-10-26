@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\backimages.png" />
+    <None Remove="Images\left_backimages.png" />
+    <None Remove="Images\t1.png" />
+    <None Remove="Images\t2.png" />
+    <None Remove="Images\t3.png" />
+    <None Remove="Images\t4.jpg" />
+    <None Remove="Images\t4.png" />
+    <None Remove="Images\t5.png" />
+    <None Remove="Images\t6.png" />
+    <None Remove="Images\t7.png" />
+    <None Remove="Images\t8.png" />
+    <None Remove="Images\t9.png" />
+    <None Remove="Images\tx.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Core" Version="0.9.8" />
+    <PackageReference Include="LiveCharts.Wpf.Core" Version="0.9.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\backimages.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\left_backimages.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\t1.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\t2.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\t3.png" />
+    <Resource Include="Images\t4.jpg" />
+    <Resource Include="Images\t4.png" />
+    <Resource Include="Images\t5.png" />
+    <Resource Include="Images\t6.png" />
+    <Resource Include="Images\t7.png" />
+    <Resource Include="Images\t8.png" />
+    <Resource Include="Images\t9.png" />
+    <Resource Include="Images\tx.jpeg" />
+  </ItemGroup>
+
+</Project>
